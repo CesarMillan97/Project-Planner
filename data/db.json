@@ -2,15 +2,15 @@
   "projects": [
     {
       "id": 1,
-      "title": "Create new homepage banner UPDATED",
+      "title": "create new homepage banner",
       "details": "Lorem ipsum",
-      "complete": true
+      "complete": false
     },
     {
       "id": 2,
       "title": "Make marketing email",
       "details": "Lorem ipsum",
-      "complete": true
+      "complete": false
     },
     {
       "title": "New project test",
@@ -23,6 +23,12 @@
       "details": "Project 4 details",
       "complete": false,
       "id": 4
+    },
+    {
+      "title": "Ir por las tortillas",
+      "details": "Pasar por 1.5 kg de tortillas",
+      "complete": true,
+      "id": 5
     }
   ]
 }

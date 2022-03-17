@@ -50,11 +50,18 @@ export default {
       }
     }
   },
+  updated(){
+    console.log('Hello world');
+  },
+  beforeMount(){
+    console.log('Before mount');
+  },
   mounted(){
-    fetch('http://localhost:3000/projects')
+    fetch("http://localhost:3000/projects")
     .then(res => res.json())
     .then(data => this.projects = data)
-    .catch(err => console.log(err));
+    .catch(err => console.log(err)) 
+    console.log('Mount');
   },
 }
 </script>

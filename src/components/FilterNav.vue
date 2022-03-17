@@ -2,7 +2,7 @@
   <nav class="filter-nav">
      <button 
       @click="updateFilter('all')"
-      :class="{ active: current === 'all' }">View All</button>
+      :class="{ active: current === 'all' }">View All the posts</button>
      <button 
       @click="updateFilter('completed')"
       :class="{ active: current === 'completed' }">Completed</button>
